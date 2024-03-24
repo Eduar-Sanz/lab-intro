@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("014.gif"); /* Reemplaza esta URL con la de tu GIF */
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(228, 242, 244, 0.553);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .animated-text {
+            animation: moveText 3s infinite alternate;
+        }
+        @keyframes moveText {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        .instagram-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e4405f;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tarea 2</h1>
+        <p>Hola, me llamo Eduar. soy estudiante de ingenieria en sistemas.</p>
+        <img src="imagen.png" alt="is">
+        <p class="animated-text">¡mi instagram!</p>
+        <a href="https://www.instagram.com" class="instagram-button">Instagram</a>
+    </div>
+</body>
+</html>
